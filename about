@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+<meta name="viewport" content="height=auto" />
+    <title>WHO ARE WE</title>
+
+</head>
+<body>
+    <main>
+  <h1>WHO ARE WE</h1>
+<h2>Mission of Team<h2>
+
+    <p>Our lead passionate engineers, AI expert, and innovator is  dedicated to building next-generation autonomous systems. Our focus is on creating reliable, efficient, and intelligent software that drives the future of self-sustaining robotics.</p>
+     <h2>Mission Of Robot<h2>
+         <p>Powered by advanced AI detection and real-time decision-making, our self-driving robot seamlessly interacts with its environment, ensuring precision, safety, and adaptability. Designed for logistics, security, and beyond, it represents the cutting edge of autonomous utility.</p>
+
+         <h2>Future Of SUS CO.</h2>
+          <img src="images/NoImageyet.png" alt="brawl stars 1">
+         <p>SUS envisions a world where AI-driven autonomy enhances productivity, reduces risks, and reshapes industries. As we continue to evolve, we remain committed to pushing the boundaries of smart robotics, making autonomy more accessible, efficient, and intelligent.</p>
+<h1>ABOUT US</h1> 
+<p>We develop next-generation self-driving AI software designed for high-speed perception, decision-making, and adaptability. Our software enables autonomous robots to operate seamlessly in dynamic environments, making industries safer, smarter, and more efficient.</p>
+<p>We envision a world where AI-driven automation revolutionizes industries, from logistics and security to transportation and beyond. By continuously refining our technology, we aim to set new standards for speed, intelligence, and reliability in autonomous robotics.</p>
+          
+<h1>CONNECT TO WHAT COUNTS> 
+<h2>Let's Get Started</h2>
+
+<h2>Phone</h2>
+<p>773-242-0955 630-303-2055 708-368-9439</p>
+<h2>Email</h2>
+<p>newsomebubba@gmail.com</p>
+<h2>Social</h2>
+ <img src="images/NoImageyet.png" alt="brawl stars 1">
+<footer>
+          <p>&copy; 2025 Your Name. All rights reserved.</p>
+      </footer>
+    </main>
+</body>
+</html>
