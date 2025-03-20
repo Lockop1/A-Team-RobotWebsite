@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+<meta name="viewport" content="height=auto" />
+    <title>Features</title>
+
+</head>
+<body>
+    <main>
+  <h1>welcome</h1>
+      <figure>
+    <picture>
+        <!-- Werewolf feet -->
+        <source srcset="images/imagesmallwebp.webp" type="image/webp" media="(max-width: 600px)"> 
+
+        <!-- Super stinky green feet -->
+        <source srcset="images/imagesmalljpg.jpg" type="image/jpg" media="(max-width: 700px)">
+
+        <!-- Gamer feet -->
+        <source srcset="images/imagelargewebp.webp" type="image/webp" media="(max-width: 1000px)"> 
+
+        <!-- Giant feet stepping -->
+        <source srcset="images/imagelargejpg.jpg" type="image/jpg" media="(max-width: 1000px)">
+
+        <!-- Default image -->
+        <img src="images/imagelargejpg.jpg" alt="feet">
+    </picture>
+
+
+    <figcaption>Stinky feet</figcaption>
+</figure>  
+          <footer>
+          <p>&copy; 2025 Your Name. All rights reserved.</p>
+  
+        <footer>
+      </footer>
+    </main>
+</body>
+</html>
