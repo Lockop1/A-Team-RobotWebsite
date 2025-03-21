@@ -1,3 +1,23 @@
+/*Anthony*/
+.navBar{
+    align-items: center;
+    padding: 10px;
+    background-color: #410459;
+    
+}
+
+.navBtn{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decorations: none;
+}
+/*Anthony*/
+
+
+
 /* Basic Reset */
 * {
     margin: 0;
