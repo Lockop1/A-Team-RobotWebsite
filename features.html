@@ -4,33 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=auto" />
     <title>Features</title>
-      <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <style>
         /* General Styles */
+        
+        /* Setting a background color (fixed invalid 'light purple' to an actual hex color) */
         html {
-            background-color: light purple;
+            background-color: #D8BFD8; /* Light purple */
         }
 
+        /* Basic font and spacing setup */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
 
+        /* Main container */
         main {
             text-align: center;
             margin: 20px auto;
             max-width: 90%;
         }
 
+        /* Headings formatting */
         h1 {
             text-align: center;
             margin: 40px auto;
             max-width: 90%;
         }
 
-      
-
+        /* Ensuring images are responsive and well-styled */
         picture img, img {
             max-width: 100%;
             height: auto;
@@ -38,28 +42,44 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
-
-        /* Styling the footer */
-        footer {
-            text-align: center;
-            margin-top: 30px;
-            font-size: 0.9em;
-            color: red;
+        /* Feature sections styling */
+        .featuresPanel {
+            padding: 20px;
+            margin-bottom: 30px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-       p{
+        /* Footer styling for better readability */
+        footer {
+            background-color: #333; /* Dark gray */
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+
+        /* Styling paragraph text */
+        p {
             padding: 15px;
             background-color: lightgray;
             border-radius: 8px;
             margin: 10px 0;
             text-align: center;
         }
-        #fingerpenis{
-magin-top:20px;
+
+        /* Fixing the incorrect "magin-top" typo and renaming for clarity */
+        #featuresTitle {
+            margin-top: 20px;
         }
     </style>
-    
 </head>
+
+<body>
+
+    <!-- Navigation Bar -->
     <header>
         <nav class="navBar">
             <a href="https://lockop1.github.io/A-Team-RobotWebsite/mainPage.html" class="navBtn">Home</a>
@@ -68,43 +88,39 @@ magin-top:20px;
             <a href="https://lockop1.github.io/A-Team-RobotWebsite/aboutUs.html" class="navBtn">About</a>
         </nav>
     </header>
-<body>
+
     <main>
-        <h1 id="fingerpenis">Features</h1>
+        <!-- Page Title -->
+        <h1 id="featuresTitle">Features</h1>
 
+        <!-- Feature 1: Delivery -->
         <h2>Delivery</h2>
-         <div class="featuresPanel">
-        
+        <div class="featuresPanel">
             <p>Our robot is equipped with advanced navigation and sensor technology, allowing it to autonomously navigate through streets and sidewalks to make deliveries efficiently. It uses GPS for precise location tracking and obstacle detection systems to avoid any hazards in its path. The robot is designed to carry packages securely, ensuring items are delivered safely and on time, while its compact size allows it to access locations that traditional delivery vehicles can't. Whether delivering groceries, packages, or documents, the robot offers a fast, eco-friendly solution for last-mile delivery.</p>
-      
-        <img src="images/NoImageyet.png" alt="brawl stars 1">
-         </div>
+            <img src="images/NoImageyet.png" alt="Delivery Robot">
+        </div>
 
+        <!-- Feature 2: Space Rover -->
         <h2>Space Rover</h2>
-         <div class="featuresPanel">
-      
+        <div class="featuresPanel">
             <p>As a space rover, our robot is engineered to explore and analyze extraterrestrial surfaces with precision and durability. It is equipped with specialized tools and sensors to collect soil samples, measure atmospheric conditions, and capture high-resolution images of the terrain. Designed to withstand harsh environments, including extreme temperatures and radiation, the rover can navigate rugged landscapes and uneven terrains on planets or moons. Its autonomous systems enable it to operate independently for extended periods, transmitting valuable data back to Earth for scientific research and exploration, making it an essential asset for space missions.</p>
+            <img src="images/NoImageyet.png" alt="Space Rover Robot">
+        </div>
 
-        <img src="images/NoImageyet.png" alt="brawl stars 1">
-             </div>
-
+        <!-- Feature 3: Security -->
         <h2>Security</h2>
-         <div class="featuresPanel">
-
+        <div class="featuresPanel">
             <p>As a security robot, our robot is designed to patrol designated areas, providing constant surveillance and ensuring safety. Equipped with cameras, motion sensors, and real-time alert systems, it can detect unusual activity, identify potential threats, and send immediate notifications to security personnel.</p>
-  
-       
             <p>The robot’s autonomous navigation allows it to patrol large areas efficiently, while its ability to operate 24/7 ensures round-the-clock protection. Additionally, it can interact with people and provide remote assistance, making it a reliable and proactive solution for enhancing security in various environments.</p>
-        
-       
-        <img src="images/NoImageyet.png" alt="brawl stars 1">
-         </div>
+            <img src="images/NoImageyet.png" alt="Security Robot">
+        </div>
 
+        <!-- Footer Section -->
         <footer>
-            <p>&copy; 2025 Your Name. All rights reserved.</p>
+            <p>&copy; 2025 A-Team Robotics. All rights reserved.</p>
+            <p>For inquiries, contact us at <a href="mailto:info@ateamrobotics.com" style="color: white;">info@ateamrobotics.com</a></p>
         </footer>
     </main>
+
 </body>
 </html>
-
-        
