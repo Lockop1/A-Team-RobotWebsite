@@ -202,4 +202,13 @@ h1 {
         margin-bottom: 20px;
     }
 }
-
+  /* Footer Styles - Black Box */
+        footer {
+            background-color: black; /* Black background */
+            color: white; /* White text */
+            text-align: center;
+            padding: 10px 0; /* Small padding for a short height */
+            font-size: 14px;
+            position: relative;
+            width: 100%;
+        }
