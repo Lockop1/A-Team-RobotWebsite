@@ -37,6 +37,10 @@
     background-color: #fff; /* White background */
 }
 
+#title{
+    margin-top: 20px;
+}
+
 
 .panel img {
     border-radius: 35px; /* Round the edges of all images */
