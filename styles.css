@@ -3,7 +3,9 @@
     align-items: center;
     padding: 10px;
     background-color: #410459;
-    
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 .navBtn{
