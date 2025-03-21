@@ -33,6 +33,7 @@
 .panel img {
     border-radius: 10px; /* Round the edges of all images */
     display: flex;
+    padding: 15px;
     margin: 0 auto; /* Center the images horizontally */
 }
 
