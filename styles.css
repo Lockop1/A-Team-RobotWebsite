@@ -1,13 +1,15 @@
 /*Anthony*/
-@font-face {
+/*@font-face {
     font-family: 'typeographica';
     src: url('fonts/TypoGraphica.otf') format('otf');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 .navBar{
+    display: flex;
     align-items: center;
+    justify-content: center;
     padding: 10px;
     background-color: #410459;
     position: fixed;
