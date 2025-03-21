@@ -16,11 +16,21 @@
     margin: 0 auto; /* Center the images horizontally */
 }
 
-.imgContainer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.leftText{
+
 }
+.rightText{
+
+}
+.leftImg{
+
+}
+.rightImg{
+
+}
+
+
+
 
 .imgBtnStack{
     display: block;
