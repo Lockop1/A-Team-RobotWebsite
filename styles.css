@@ -1,4 +1,11 @@
 /*Anthony*/
+@font-face {
+    font-family: 'typeographica';
+    src: url('fonts/TypoGraphica.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .navBar{
     align-items: center;
     padding: 10px;
@@ -11,10 +18,14 @@
 .navBtn{
     padding-left: 20px;
     padding-right: 20px;
+    
     color: white;
-    font-weight: bold;
+
     text-align: center;
     text-decorations: none;
+
+    font-family: typeographic, sans-serif;
+    font-weight: bold;
 }
 /*Anthony*/
 
