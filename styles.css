@@ -31,7 +31,7 @@
 
 
 .panel img {
-    border-radius: 100px; /* Round the edges of all images */
+    border-radius: 35px; /* Round the edges of all images */
     padding: 15px;
     margin: 0 auto; /* Center the images horizontally */
 }
