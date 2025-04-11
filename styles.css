@@ -56,6 +56,7 @@ img {
     border-radius: 35px; /* Round the edges of all images */
     padding: 15px;
     margin: 0 auto; /* Center the images horizontally */
+    max-width: 100%;
 }
 
 .imgContainer{
@@ -77,6 +78,9 @@ img {
     text-align: center; /* Center the text */
     padding: 20px;
     margin-bottom: 30px;
+    display: grid;
+    grid-template-column: auto auto;
+    grid-template-rows: auto;
 }
 
 button {
