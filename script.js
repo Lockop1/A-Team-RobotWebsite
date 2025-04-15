@@ -7,4 +7,12 @@ window.addEventListener('load', function () {
       behavior: 'smooth'
     });
   }
+
+  if (urlParams.get('scroll') === 'full') {
+    const halfway = document.body.scrollHeight;
+    window.scrollTo({
+      top: halfway,
+      behavior: 'smooth'
+    });
+  }
 });
