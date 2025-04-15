@@ -9,7 +9,7 @@ window.addEventListener('load', function () {
   }
 
   if (urlParams.get('scroll') === 'full') {
-    const halfway = document.body.scrollHeight / 1.15;
+    const halfway = document.body.scrollHeight;
     window.scrollTo({
       top: halfway,
       behavior: 'smooth'
